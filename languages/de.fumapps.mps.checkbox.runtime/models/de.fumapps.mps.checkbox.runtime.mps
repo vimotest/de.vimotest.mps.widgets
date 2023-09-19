@@ -221,7 +221,7 @@
                   <ref role="3cqZAo" node="7szUFELGTwP" resolve="g" />
                 </node>
                 <node concept="liA8E" id="7szUFELGVuh" role="2OqNvi">
-                  <ref role="37wK5l" to="z60i:~Graphics.drawRect(int,int,int,int)" resolve="drawRect" />
+                  <ref role="37wK5l" to="z60i:~Graphics.fillRect(int,int,int,int)" resolve="fillRect" />
                   <node concept="1rXfSq" id="7szUFELGVwy" role="37wK5m">
                     <ref role="37wK5l" to="g51k:~EditorCell_Basic.getX()" resolve="getX" />
                   </node>
