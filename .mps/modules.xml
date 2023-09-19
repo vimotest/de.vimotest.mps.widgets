@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MPSProject">
+    <projectModules>
+      <modulePath path="$PROJECT_DIR$/languages/de.fumapps.mps.checkbox.runtime/de.fumapps.mps.checkbox.runtime.msd" folder="" />
+      <modulePath path="$PROJECT_DIR$/languages/de.fumapps.mps.checkbox.sandbox/de.fumapps.mps.checkbox.sandbox.msd" folder="" />
+      <modulePath path="$PROJECT_DIR$/languages/de.fumapps.mps.checkbox/de.fumapps.mps.checkbox.mpl" folder="" />
+    </projectModules>
+  </component>
+</project>
