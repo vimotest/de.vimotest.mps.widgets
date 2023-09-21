@@ -31,8 +31,10 @@
       <concept id="1078308402140" name="jetbrains.mps.lang.editor.structure.CellModel_Custom" flags="sg" stub="8104358048506730068" index="gc7cB">
         <child id="1176795024817" name="cellProvider" index="3YsKMw" />
       </concept>
+      <concept id="1106270549637" name="jetbrains.mps.lang.editor.structure.CellLayout_Horizontal" flags="nn" index="2iRfu4" />
       <concept id="1237303669825" name="jetbrains.mps.lang.editor.structure.CellLayout_Indent" flags="nn" index="l2Vlx" />
       <concept id="1237307900041" name="jetbrains.mps.lang.editor.structure.IndentLayoutIndentStyleClassItem" flags="ln" index="lj46D" />
+      <concept id="1142886221719" name="jetbrains.mps.lang.editor.structure.QueryFunction_NodeCondition" flags="in" index="pkWqt" />
       <concept id="1142886811589" name="jetbrains.mps.lang.editor.structure.ConceptFunctionParameter_node" flags="nn" index="pncrf" />
       <concept id="1237385578942" name="jetbrains.mps.lang.editor.structure.IndentLayoutOnNewLineStyleClassItem" flags="ln" index="pVoyu" />
       <concept id="1080736578640" name="jetbrains.mps.lang.editor.structure.BaseEditorComponent" flags="ig" index="2wURMF">
@@ -43,8 +45,14 @@
         <property id="1186414551515" name="flag" index="VOm3f" />
       </concept>
       <concept id="1186414976055" name="jetbrains.mps.lang.editor.structure.DrawBorderStyleClassItem" flags="ln" index="VPXOz" />
+      <concept id="1139744628335" name="jetbrains.mps.lang.editor.structure.CellModel_Image" flags="sg" stub="8104358048506731195" index="1u4HXA">
+        <property id="1139746504291" name="imageFile" index="1ubRXE" />
+      </concept>
       <concept id="1139848536355" name="jetbrains.mps.lang.editor.structure.CellModel_WithRole" flags="ng" index="1$h60E">
         <reference id="1140103550593" name="relationDeclaration" index="1NtTu8" />
+      </concept>
+      <concept id="1073389214265" name="jetbrains.mps.lang.editor.structure.EditorCellModel" flags="ng" index="3EYTF0">
+        <child id="1142887637401" name="renderingCondition" index="pqm2j" />
       </concept>
       <concept id="1073389446423" name="jetbrains.mps.lang.editor.structure.CellModel_Collection" flags="sn" stub="3013115976261988961" index="3EZMnI">
         <child id="1106270802874" name="cellLayout" index="2iSdaV" />
@@ -184,10 +192,31 @@
   </registry>
   <node concept="24kQdi" id="6RxbG0TDGV4">
     <ref role="1XX52x" to="zrpk:6RxbG0TDGV1" resolve="TreeCell" />
-    <node concept="3F0A7n" id="6RxbG0TDGV6" role="2wV5jI">
-      <ref role="1NtTu8" to="zrpk:6RxbG0TDGV2" resolve="value" />
+    <node concept="3EZMnI" id="5$pw_5QhYVS" role="2wV5jI">
       <node concept="VPXOz" id="6RxbG0TDGV9" role="3F10Kt">
         <property role="VOm3f" value="true" />
+      </node>
+      <node concept="1u4HXA" id="5$pw_5QhYW4" role="3EZMnx">
+        <property role="1ubRXE" value="${module}/images/arrow_right.svg" />
+        <node concept="pkWqt" id="5$pw_5Qi9wW" role="pqm2j">
+          <node concept="3clFbS" id="5$pw_5Qi9wX" role="2VODD2">
+            <node concept="3clFbF" id="5$pw_5Qi9x2" role="3cqZAp">
+              <node concept="3clFbC" id="5$pw_5Qibby" role="3clFbG">
+                <node concept="3cmrfG" id="5$pw_5QibGb" role="3uHU7w">
+                  <property role="3cmrfH" value="0" />
+                </node>
+                <node concept="2OqwBi" id="5$pw_5Qi9Lb" role="3uHU7B">
+                  <node concept="pncrf" id="5$pw_5Qi9x1" role="2Oq$k0" />
+                  <node concept="2bSWHS" id="5$pw_5Qia0L" role="2OqNvi" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="2iRfu4" id="5$pw_5QhYVT" role="2iSdaV" />
+      <node concept="3F0A7n" id="6RxbG0TDGV6" role="3EZMnx">
+        <ref role="1NtTu8" to="zrpk:6RxbG0TDGV2" resolve="value" />
       </node>
     </node>
   </node>
