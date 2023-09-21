@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model ref="r:be91d183-0955-407b-9b11-4d4f29cbaade(de.fumapps.mps.checkbox.demolang.generator.templates@generator)">
+<model ref="r:be91d183-0955-407b-9b11-4d4f29cbaade(de.vimotest.mps.checkbox.demolang.generator.templates@generator)">
   <persistence version="9" />
   <languages>
     <devkit ref="a2eb3a43-fcc2-4200-80dc-c60110c4862d(jetbrains.mps.devkit.templates)" />
   </languages>
   <imports>
-    <import index="3y35" ref="r:557b5294-ed2b-42d1-9015-64d7fd33f2c3(de.fumapps.mps.checkbox.demolang.structure)" />
+    <import index="3y35" ref="r:557b5294-ed2b-42d1-9015-64d7fd33f2c3(de.vimotest.mps.checkbox.demolang.structure)" />
   </imports>
   <registry>
     <language id="b401a680-8325-4110-8fd3-84331ff25bef" name="jetbrains.mps.lang.generator">

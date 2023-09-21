@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model ref="r:ad592e44-2519-4b92-91c4-60b17a47d394(de.fumapps.mps.checkbox.demolang.editor)">
+<model ref="r:ad592e44-2519-4b92-91c4-60b17a47d394(de.vimotest.mps.checkbox.demolang.editor)">
   <persistence version="9" />
   <languages>
     <use id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor" version="14" />
     <use id="aee9cad2-acd4-4608-aef2-0004f6a1cdbd" name="jetbrains.mps.lang.actions" version="4" />
-    <use id="541e8594-a1c9-484c-bc29-e48c9bb35706" name="de.fumapps.mps.checkbox" version="0" />
+    <use id="541e8594-a1c9-484c-bc29-e48c9bb35706" name="de.vimotest.mps.checkbox" version="0" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
-    <import index="3y35" ref="r:557b5294-ed2b-42d1-9015-64d7fd33f2c3(de.fumapps.mps.checkbox.demolang.structure)" implicit="true" />
+    <import index="3y35" ref="r:557b5294-ed2b-42d1-9015-64d7fd33f2c3(de.vimotest.mps.checkbox.demolang.structure)" implicit="true" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
   </imports>
   <registry>
@@ -37,8 +37,8 @@
         <reference id="1166049300910" name="conceptDeclaration" index="1XX52x" />
       </concept>
     </language>
-    <language id="541e8594-a1c9-484c-bc29-e48c9bb35706" name="de.fumapps.mps.checkbox">
-      <concept id="2473203059624527914" name="de.fumapps.mps.checkbox.structure.CellModel_CheckBox" flags="sg" stub="2473203059624997346" index="1w1HOY" />
+    <language id="541e8594-a1c9-484c-bc29-e48c9bb35706" name="de.vimotest.mps.checkbox">
+      <concept id="2473203059624527914" name="de.vimotest.mps.checkbox.structure.CellModel_CheckBox" flags="sg" stub="2473203059624997346" index="1w1HOY" />
     </language>
   </registry>
   <node concept="24kQdi" id="29i_hh2na9y">

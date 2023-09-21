@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model ref="r:b9ed1bce-3fc0-4c18-894c-c285a0b4c6c2(de.fumapps.mps.checkbox.generator.templates@generator)">
+<model ref="r:b9ed1bce-3fc0-4c18-894c-c285a0b4c6c2(de.vimotest.mps.checkbox.generator.templates@generator)">
   <persistence version="9" />
   <languages>
     <use id="b401a680-8325-4110-8fd3-84331ff25bef" name="jetbrains.mps.lang.generator" version="4" />
     <devkit ref="a2eb3a43-fcc2-4200-80dc-c60110c4862d(jetbrains.mps.devkit.templates)" />
   </languages>
   <imports>
-    <import index="rrcn" ref="r:c0ee3504-e783-401c-aa19-e918ed617e37(de.fumapps.mps.checkbox.structure)" />
+    <import index="rrcn" ref="r:c0ee3504-e783-401c-aa19-e918ed617e37(de.vimotest.mps.checkbox.structure)" />
     <import index="f4zo" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.openapi.editor.cells(MPS.Editor/)" />
-    <import index="quww" ref="r:10210f3f-3d8f-46df-a66b-e0e9273e8809(de.fumapps.mps.checkbox.runtime)" />
+    <import index="quww" ref="r:10210f3f-3d8f-46df-a66b-e0e9273e8809(de.vimotest.mps.checkbox.runtime)" />
     <import index="tpc3" ref="r:00000000-0000-4000-0000-011c8959029f(jetbrains.mps.lang.editor.generator.baseLanguage.template.main@generator)" />
     <import index="cj4x" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.openapi.editor(MPS.Editor/)" />
     <import index="g51k" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.nodeEditor.cells(MPS.Editor/)" />

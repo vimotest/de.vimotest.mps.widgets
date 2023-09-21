@@ -3,9 +3,10 @@
   <component name="MPSProject">
     <projectModules>
       <modulePath path="$PROJECT_DIR$/languages/de.fumapps.mps.checkbox.demolang/de.fumapps.mps.checkbox.demolang.mpl" folder="" />
-      <modulePath path="$PROJECT_DIR$/languages/de.fumapps.mps.checkbox.runtime/de.fumapps.mps.checkbox.runtime.msd" folder="" />
-      <modulePath path="$PROJECT_DIR$/languages/de.fumapps.mps.checkbox.sandbox/de.fumapps.mps.checkbox.sandbox.msd" folder="" />
-      <modulePath path="$PROJECT_DIR$/languages/de.fumapps.mps.checkbox/de.fumapps.mps.checkbox.mpl" folder="" />
+      <modulePath path="$PROJECT_DIR$/languages/de.vimotest.mps.checkbox.demolang/de.vimotest.mps.checkbox.demolang.mpl" folder="checkbox" />
+      <modulePath path="$PROJECT_DIR$/languages/de.vimotest.mps.checkbox.runtime/de.vimotest.mps.checkbox.runtime.msd" folder="checkbox" />
+      <modulePath path="$PROJECT_DIR$/languages/de.vimotest.mps.checkbox.sandbox/de.vimotest.mps.checkbox.sandbox.msd" folder="checkbox" />
+      <modulePath path="$PROJECT_DIR$/languages/de.vimotest.mps.checkbox/de.vimotest.mps.checkbox.mpl" folder="" />
     </projectModules>
   </component>
 </project>

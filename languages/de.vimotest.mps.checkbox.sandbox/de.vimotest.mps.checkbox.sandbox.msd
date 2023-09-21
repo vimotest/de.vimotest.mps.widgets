@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<solution name="de.fumapps.mps.checkbox.sandbox" uuid="dec769ed-0bae-4caa-9a77-03032cbfec8b" moduleVersion="0" compileInMPS="true">
+<solution name="de.vimotest.mps.checkbox.sandbox" uuid="dec769ed-0bae-4caa-9a77-03032cbfec8b" moduleVersion="0" compileInMPS="true">
   <models>
     <modelRoot type="default" contentPath="${module}">
       <sourceRoot location="models" />
@@ -12,8 +12,8 @@
   </facets>
   <sourcePath />
   <languageVersions>
-    <language slang="l:541e8594-a1c9-484c-bc29-e48c9bb35706:de.fumapps.mps.checkbox" version="0" />
-    <language slang="l:a39af9d7-0694-4264-a068-35fa1359b9f0:de.fumapps.mps.checkbox.demolang" version="0" />
+    <language slang="l:541e8594-a1c9-484c-bc29-e48c9bb35706:de.vimotest.mps.checkbox" version="0" />
+    <language slang="l:a39af9d7-0694-4264-a068-35fa1359b9f0:de.vimotest.mps.checkbox.demolang" version="0" />
     <language slang="l:f3061a53-9226-4cc5-a443-f952ceaf5816:jetbrains.mps.baseLanguage" version="12" />
     <language slang="l:443f4c36-fcf5-4eb6-9500-8d06ed259e3e:jetbrains.mps.baseLanguage.classifiers" version="0" />
     <language slang="l:fd392034-7849-419d-9071-12563d152375:jetbrains.mps.baseLanguage.closures" version="0" />
@@ -26,7 +26,7 @@
     <language slang="l:9ded098b-ad6a-4657-bfd9-48636cfe8bc3:jetbrains.mps.lang.traceable" version="0" />
   </languageVersions>
   <dependencyVersions>
-    <module reference="dec769ed-0bae-4caa-9a77-03032cbfec8b(de.fumapps.mps.checkbox.sandbox)" version="0" />
+    <module reference="dec769ed-0bae-4caa-9a77-03032cbfec8b(de.vimotest.mps.checkbox.sandbox)" version="0" />
   </dependencyVersions>
 </solution>
 

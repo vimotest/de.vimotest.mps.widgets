@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model ref="r:a719ca83-32cf-44e9-abac-9587df27ad8e(de.fumapps.mps.checkbox.constraints)">
+<model ref="r:a719ca83-32cf-44e9-abac-9587df27ad8e(de.vimotest.mps.checkbox.constraints)">
   <persistence version="9" />
   <languages>
     <use id="5dae8159-ab99-46bb-a40d-0cee30ee7018" name="jetbrains.mps.lang.constraints.rules.kinds" version="0" />
@@ -17,7 +17,7 @@
   </languages>
   <imports>
     <import index="o8zo" ref="r:314576fc-3aee-4386-a0a5-a38348ac317d(jetbrains.mps.scope)" />
-    <import index="rrcn" ref="r:c0ee3504-e783-401c-aa19-e918ed617e37(de.fumapps.mps.checkbox.structure)" implicit="true" />
+    <import index="rrcn" ref="r:c0ee3504-e783-401c-aa19-e918ed617e37(de.vimotest.mps.checkbox.structure)" implicit="true" />
     <import index="tpc2" ref="r:00000000-0000-4000-0000-011c8959029e(jetbrains.mps.lang.editor.structure)" implicit="true" />
     <import index="tpce" ref="r:00000000-0000-4000-0000-011c89590292(jetbrains.mps.lang.structure.structure)" implicit="true" />
     <import index="tpcb" ref="r:00000000-0000-4000-0000-011c89590297(jetbrains.mps.lang.editor.behavior)" implicit="true" />
