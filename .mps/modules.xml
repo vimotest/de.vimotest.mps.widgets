@@ -7,6 +7,8 @@
       <modulePath path="$PROJECT_DIR$/languages/de.vimotest.mps.checkbox.runtime/de.vimotest.mps.checkbox.runtime.msd" folder="checkbox" />
       <modulePath path="$PROJECT_DIR$/languages/de.vimotest.mps.checkbox.sandbox/de.vimotest.mps.checkbox.sandbox.msd" folder="checkbox" />
       <modulePath path="$PROJECT_DIR$/languages/de.vimotest.mps.checkbox/de.vimotest.mps.checkbox.mpl" folder="" />
+      <modulePath path="$PROJECT_DIR$/languages/de.vimotest.mps.treeview.sandbox/de.vimotest.mps.treeview.sandbox.msd" folder="treeview" />
+      <modulePath path="$PROJECT_DIR$/languages/de.vimotest.mps.treeview/de.vimotest.mps.treeview.mpl" folder="treeview" />
     </projectModules>
   </component>
 </project>
